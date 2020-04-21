@@ -19,7 +19,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": "https://api-worker.herokuapp.com/",
+  "proxy": "https://api-worker.herokuapp.com/i",
   "browserslist": {
     "production": [
       ">0.2%",
