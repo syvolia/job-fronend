@@ -1,0 +1,117 @@
+body {
+  margin: 20px 40px;
+}
+
+.job {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 10px;
+  align-items: center;
+}
+
+.job:hover {
+  cursor: pointer;
+  color: #666666;
+}
+
+.detail-logo {
+  height: 30px;
+  float: right;
+}
+.wrapper{
+  position: relative;
+}
+
+.home-logo {
+  border-radius: 50%;
+  height: 30px;
+  float: left;
+  
+  width: 50px;
+}
+
+.job-company {
+  padding: 0 30px;
+}
+
+.job-dialog {
+  padding: 30px 50px;
+}
+
+.welcome-description {
+  width: 80%;
+  margin: 20px 0;
+  padding: 20px 10px;
+}
+
+.welcome-item {
+  opacity: 0;
+  transition: .5s ease all;
+}
+
+.flex-align-mid {
+  display: flex;
+  align-items: center;
+}
+
+.job-title-location {
+  margin-left: 20px;
+}
+.jobs{
+  padding-left: 10%;
+}
+.defaultHero,
+.roomsHero {
+
+  background: url("./images/coding.jpg") center/cover no-repeat;
+  min-height: calc(50vh - 66px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.roomsHero {
+  background-image: url("./images/room-2.jpeg");
+  min-height: 60vh;
+}
+.banner{
+  display: inline-block;
+ 
+  color: var(--mainWhite);
+  padding: 2rem 1rem;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+}
+.banner h1 {
+  font-size: 2.5rem;
+}
+.banner div {
+  width: 10rem;
+  height: 5px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 576px) {
+  .banner {
+    padding: 2rem 3rem;
+  }
+  .banner h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .banner {
+    padding: 2rem 6rem;
+  }
+  .banner h1 {
+    font-size: 4rem;
+  }
+}
+/* End of Banner */
